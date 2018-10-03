@@ -142,7 +142,7 @@ select {
     margin-bottom: 15px;
     display: block;
      position: relative;
-      left: 5px;
+      left: 7px;
 }
 .btn-podbor {
     border: none;
@@ -175,7 +175,7 @@ select {
 
 .second-img img{
     position: absolute;
-    bottom: 96px;
+    bottom: 735px;
     left: 60px;
     width: 80px;
     height: 80px;
@@ -186,7 +186,7 @@ select {
     sans-serif;
     color: white;
     position: absolute;
-     bottom: -2px;
+     bottom: 640px;
      left: 60px;
      width: 80px;
      height: 80px;
@@ -204,7 +204,7 @@ select {
     background-color: #FFFFFF;
     text-transform: uppercase;
     font-weight: bold;
-    bottom: 30px;
+    bottom: 675px;
     right: 20px;
 }
 .sidebar-try img {
