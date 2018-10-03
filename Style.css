@@ -2,10 +2,14 @@
 sans-serif;
 font-family: 'Roboto',
 sans-serif; */
+*{
+    box-sizing: border-box;
+}
 
 .logo, .first-nav, .second-nav {
     display: inline-block;
 }
+
 
 ul {
     text-decoration: none;
@@ -18,6 +22,7 @@ ul {
 a {
     text-decoration: none;
     color: black;
+
    
 }
 li {
@@ -34,22 +39,25 @@ list-style: none;
 }
 
 .header-container {
-    display: ;
-   
+
+
     padding-top: 10px;
 }
 
 .first-nav {
     display: inline-block;
     width: 40%;
-  
     font-family:'Lato', sans-serif;
     font-weight: bold;
     color: black;
     font-size: 15px;
 
-}
 
+}
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
 .second-nav {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -81,3 +89,234 @@ list-style: none;
 .first-nav a:hover {
    background: #e3b347;
 }
+
+label {
+    margin-top: 9px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+     position: relative;
+    left: 5px;
+}
+select {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    color: #adadad;
+    margin-top: 7px;
+     position: relative;
+      left: 5px;
+}
+.select-name {
+    font-size: 14px;
+    color: black;
+}
+
+
+.form-control {
+    width: 145px;
+    height: 30px;
+}
+
+.form-group {
+    
+   margin-top: px;
+   
+}
+
+
+.btn-box {
+    border: 2px solid red;
+}
+
+.container {
+
+    margin-top: 40px;
+}
+
+.btn-podbor {
+    height: 30px;
+    position: relative;
+    width: 145px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+     position: relative;
+      left: 5px;
+}
+.btn-podbor {
+    border: none;
+    color: #030200;
+    border-radius: 3px 3px 3px 3px;
+
+    font-family: 'Lato',sans-serif;
+
+    font-size: 15px;
+
+ 
+  
+    background-color: #FFFFFF;
+}
+
+.btn-podbor:hover {
+    cursor: pointer;
+     box-shadow: 0 0 3px rgba(0, 0, 0, 0) inset,
+     0 1px 1px 1px rgba(255, 255, 255, 0.8),
+     0 -1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.main-img img {
+    margin-top: 15px;
+    position: relative;
+    left: 15px;
+    width: 159px;
+    height: 400px;
+}
+
+.second-img img{
+    position: absolute;
+    bottom: 96px;
+    left: 60px;
+    width: 80px;
+    height: 80px;
+}
+
+.JAWSBREW {
+    font-family: 'Lato',
+    sans-serif;
+    color: white;
+    position: absolute;
+     bottom: -2px;
+     left: 60px;
+     width: 80px;
+     height: 80px;
+
+}
+
+.sidebar-try {
+    width: 150px;
+    position: absolute;
+    border: none;
+    color: #030200;
+    border-radius: 3px 3px 3px 3px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 30px;
+    right: 20px;
+}
+.sidebar-try img {
+    margin-right: 5px;
+}
+.sidebar-try img, p {
+    display: inline-block;
+}
+
+.sidebar-try:hover {
+    cursor: pointer;
+      color: rgb(24, 24, 24);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0) inset,
+    0 1px 1px 1px rgba(237, 235, 235, .5),
+    0 -1px 1px 1px rgba(237, 235, 235, .5);
+}
+
+.block {
+    background-color: #edebeb;
+    height: 220px;
+    width: 160px;
+    top: -20px;
+    position: absolute;
+}
+
+
+.first-column p {
+    display: block;
+    line-height: 1;
+    
+}
+.first-column img {
+    position: relative;
+    left: 40px;
+    
+}
+.first-column .row {
+    
+   background-color: #fef8e8;
+}
+.second-column p {
+    display: block;
+    line-height: 1;
+
+}
+
+.second-column img {
+    position: relative;
+    left: 40px;
+
+}
+
+.second-column .row {
+
+    background-color: #f7f7f7;
+}
+.thirst-column p {
+    display: block;
+    line-height: 1;
+
+}
+
+.thirst-column img {
+    position: relative;
+    left: 40px;
+
+}
+
+.thirst-column .row {
+
+    background-color: #eff7e2;
+}
+
+.down-text {
+    font-family: 'Roboto',
+    sans-serif;
+position: relative;
+font-size: 12px;
+left: -13px;
+}
+.down-text span {
+    padding-left: 3px;
+    color: #beb7b7;
+}
+.down-text strong {
+    font-weight: normal;
+    color: #e3b347;
+}
+
+.block-2 {
+    position: absolute;
+    top: -20px;
+    background-color: #fef8e8;
+    width: 190px;
+    height: 250px;
+}
+.block-3 {
+    position: absolute;
+    top: -20px;
+    background-color: #f7f7f7;
+    width: 190px;
+    height: 250px;
+}
+.block-4 {
+    position: absolute;
+    top: -20px;
+    background-color: #eff7e2;
+    width: 190px;
+    height: 250px;
+}
+
+.contenr {
+    margin-top: 20px;
+}
+
